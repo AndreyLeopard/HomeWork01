@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 // void Task2()
 
 /*Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
@@ -7,44 +6,44 @@ a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
 
-  /*  Console.WriteLine("Введите первое число a:");
-    int a = Convert.ToInt32(Console.ReadLine());
+/*  Console.WriteLine("Введите первое число a:");
+  int a = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Введите второе число b:");
-    int b = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine("Введите второе число b:");
+  int b = Convert.ToInt32(Console.ReadLine());
 
-    if (a > b)
-    {
-        Console.WriteLine($"{a}" наибольшее);
-        Console.WriteLine($"{b}" наименьшее);
-    }
-    else if (a < b)
-    {
-        Console.WriteLine($"{a}" наибольшее);
-        Console.WriteLine($"{b}" наименьшее);
-    }
-    else
-    {
-        Console.WriteLine($"Числа равны");
-    }
+  if (a > b)
+  {
+      Console.WriteLine($"{a}" наибольшее);
+      Console.WriteLine($"{b}" наименьшее);
+  }
+  else if (a < b)
+  {
+      Console.WriteLine($"{a}" наибольшее);
+      Console.WriteLine($"{b}" наименьшее);
+  }
+  else
+  {
+      Console.WriteLine($"Числа равны");
+  }
 
 } */
 
-   /* Console.WriteLine("Введите первое число a:");
-    int a = Convert.ToInt32(Console.ReadLine());
+/* Console.WriteLine("Введите первое число a:");
+ int a = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Введите второе число b:");
-    int b = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Введите второе число b:");
+ int b = Convert.ToInt32(Console.ReadLine());
 
-    if (a > b)
-    {
-    Console.WriteLine("Максимальное число: " + a + " Минимальное число: " + b);
-    }
-    
-    else if (b > a)
-    {
-    Console.WriteLine("Максимальное число: " + b + " Минимальное число: " + a);
-    }
+ if (a > b)
+ {
+ Console.WriteLine("Максимальное число: " + a + " Минимальное число: " + b);
+ }
+
+ else if (b > a)
+ {
+ Console.WriteLine("Максимальное число: " + b + " Минимальное число: " + a);
+ }
 }*/
 
 /* void Task4()
@@ -83,29 +82,29 @@ a = -9 b = -3 -> max = -3*/
 Task4();
 */
 
-    /* Console.WriteLine("Введите первое число:");
-    int a = Convert.ToInt32(Console.ReadLine());
+/* Console.WriteLine("Введите первое число:");
+int a = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Введите второе число:");
-    int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число:");
+int b = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Введите третье число:");
-    int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число:");
+int c = Convert.ToInt32(Console.ReadLine());
 
-     if (Max = a > b; max > c)
-    {
-    Console.WriteLine("Максимальное число: " + a);
-    }
-     
-    else if (Max = a < b; max > c)
-    {
-    Console.WriteLine("Максимальное число: " + b);
-    }
+ if (Max = a > b; max > c)
+{
+Console.WriteLine("Максимальное число: " + a);
+}
 
-    else if (Max = c > b; max > a)
-    {
-    Console.WriteLine("Максимальное число: " + с);
-    }
+else if (Max = a < b; max > c)
+{
+Console.WriteLine("Максимальное число: " + b);
+}
+
+else if (Max = c > b; max > a)
+{
+Console.WriteLine("Максимальное число: " + с);
+}
 
 */
 
@@ -132,3 +131,19 @@ Task6();*/
 8 -> 2, 4, 6, 8
 */
 
+void Task8()
+{
+    int number = Input("Введите число: ");
+    
+    int counter = 2;
+
+    while (counter <= number)
+    {
+        Console.Write ($"{counter} ");
+        counter += 2;
+    }
+    Console.WriteLine();
+}
+
+Console.Clear();
+Task8();
