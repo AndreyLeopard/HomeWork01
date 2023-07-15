@@ -90,7 +90,8 @@ void Task4()
 
 Task4();*/
 
-void Task4()
+// Мое решение, которое программа "не пропустила"
+/* void Task4()
 {
     Console.WriteLine("Введите первое число:");
     int a = Convert.ToInt32(Console.ReadLine());
@@ -118,25 +119,27 @@ void Task4()
 
 }
 Task4();
+*/
 
 
-/*
 
 
  /* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 4 -> да
 -3 -> нет
 7 -> нет */
-/*
+
 void Task6()
 {
-    int number = Input ("Введите число: ");
+ //   int number = Input ("Введите число: ");
+    Console.WriteLine("Введите число: ");
+    int a = Convert.ToInt32(Console.ReadLine());
 
-    if (number % 2 == 0) Console.WriteLine($"Число {number} четное");
-    else Console.WriteLine($"Число {number} Нечётное");
+    if (a % 2 == 0) Console.WriteLine($"Число {a} четное");
+    else Console.WriteLine($"Число {a} нечётное");
 }   
 Console.Clear();
-Task6(); */
+Task6(); 
 
 /* Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 5 -> 2, 4
