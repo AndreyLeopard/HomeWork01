@@ -1,35 +1,41 @@
 ﻿
-// void Task2()
+
 
 /*Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
 
-/*  Console.WriteLine("Введите первое число a:");
-  int a = Convert.ToInt32(Console.ReadLine());
+/*
+void Task2()
+{
+    Console.WriteLine("Введите первое число a:");
+    int a = Convert.ToInt32(Console.ReadLine());
 
-  Console.WriteLine("Введите второе число b:");
-  int b = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите второе число b:");
+    int b = Convert.ToInt32(Console.ReadLine());
 
-  if (a > b)
-  {
-      Console.WriteLine($"{a}" наибольшее);
-      Console.WriteLine($"{b}" наименьшее);
-  }
-  else if (a < b)
-  {
-      Console.WriteLine($"{a}" наибольшее);
-      Console.WriteLine($"{b}" наименьшее);
-  }
-  else
-  {
-      Console.WriteLine($"Числа равны");
-  }
+    if (a > b)
+    {
+        Console.WriteLine($"{a} наибольшее");
+        Console.WriteLine($"{b} наименьшее");
+    }
+    else if (a < b)
+    {
+        Console.WriteLine($"{b} наибольшее");
+        Console.WriteLine($"{a} наименьшее");
+    }
+    else
+    {
+        Console.WriteLine($"Числа равны");
+    }
 
-} */
-
-/* Console.WriteLine("Введите первое число a:");
+} 
+Task2(); */
+/*
+void Task2()
+{
+ Console.WriteLine("Введите первое число a:");
  int a = Convert.ToInt32(Console.ReadLine());
 
  Console.WriteLine("Введите второе число b:");
@@ -44,7 +50,8 @@ a = -9 b = -3 -> max = -3*/
  {
  Console.WriteLine("Максимальное число: " + b + " Минимальное число: " + a);
  }
-}*/
+}
+Task2();*/
 
 /* void Task4()
 {
@@ -115,7 +122,8 @@ Console.WriteLine("Максимальное число: " + с);
  /* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 4 -> да
 -3 -> нет
-7 -> нет
+7 -> нет */
+/*
 void Task6()
 {
     int number = Input ("Введите число: ");
@@ -124,13 +132,13 @@ void Task6()
     else Console.WriteLine($"Число {number} Нечётное");
 }   
 Console.Clear();
-Task6();*/
+Task6(); */
 
 /* Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 5 -> 2, 4
 8 -> 2, 4, 6, 8
 */
-
+/*
 void Task8()
 {
     int number = Input("Введите число: ");
@@ -146,4 +154,5 @@ void Task8()
 }
 
 Console.Clear();
-Task8();
+TaskAsyncEnumerableExtensions();
+*/
