@@ -128,10 +128,10 @@ Task4();
 4 -> да
 -3 -> нет
 7 -> нет */
-
+/*
 void Task6()
 {
- //   int number = Input ("Введите число: ");
+ //   int a = Input ("Введите число: ");
     Console.WriteLine("Введите число: ");
     int a = Convert.ToInt32(Console.ReadLine());
 
@@ -139,20 +139,25 @@ void Task6()
     else Console.WriteLine($"Число {a} нечётное");
 }   
 Console.Clear();
-Task6(); 
+Task6(); */
 
 /* Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 5 -> 2, 4
 8 -> 2, 4, 6, 8
 */
-/*
+
+
 void Task8()
-{
-    int number = Input("Введите число: ");
+{   
+    // При использовании Input выдавало ошибку, так и не удалось устранить, поэтому использую Console.WriteLine
+    // error CS0103: Имя "Input" не существует в текущем контексте.
+    //int a = Input("Введите число: ");
+    Console.WriteLine("Введите число: ");
+    int a = Convert.ToInt32(Console.ReadLine());
     
     int counter = 2;
 
-    while (counter <= number)
+    while (counter <= a)
     {
         Console.Write ($"{counter} ");
         counter += 2;
@@ -161,5 +166,4 @@ void Task8()
 }
 
 Console.Clear();
-TaskAsyncEnumerableExtensions();
-*/
+Task8();
